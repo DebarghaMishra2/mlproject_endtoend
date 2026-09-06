@@ -1,0 +1,20 @@
+[ 2026-09-06 10:57:47,562 ] 40 root - INFO - Entered the data ingestion method or component
+[ 2026-09-06 10:57:47,566 ] 50 root - INFO - Read the dataset as dataframe
+[ 2026-09-06 10:57:47,566 ] 62 root - INFO - Train test split initiated
+[ 2026-09-06 10:57:47,567 ] 73 root - INFO - Train test split completed
+[ 2026-09-06 10:57:47,572 ] 89 root - INFO - Ingestion of data is completed
+[ 2026-09-06 10:57:47,572 ] 178 root - INFO - Starting data transformation
+[ 2026-09-06 10:57:47,575 ] 186 root - INFO - Training and testing data loaded successfully
+[ 2026-09-06 10:57:47,580 ] 282 root - INFO - Feature engineering completed
+[ 2026-09-06 10:57:47,584 ] 317 root - INFO - Binary columns converted to numerical values
+[ 2026-09-06 10:57:47,585 ] 341 root - INFO - Input features and target variable separated
+[ 2026-09-06 10:57:47,586 ] 88 root - INFO - Numerical features identified: ['age', 'Medu', 'Fedu', 'traveltime', 'studytime', 'failures', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 'higher', 'internet', 'romantic', 'famrel', 'freetime', 'goout', 'Dalc', 'Walc', 'health', 'absences', 'G1', 'G2', 'grade_improvement', 'alcohol_score', 'avg_alcohol', 'social_activity_score', 'parent_education_avg', 'parent_education_gap', 'academic_risk']
+[ 2026-09-06 10:57:47,586 ] 93 root - INFO - Categorical features identified: ['school', 'sex', 'address', 'famsize', 'Pstatus', 'Mjob', 'Fjob', 'reason', 'guardian', 'absence_level']
+[ 2026-09-06 10:57:47,586 ] 126 root - INFO - Numerical pipeline created successfully
+[ 2026-09-06 10:57:47,586 ] 130 root - INFO - Categorical pipeline created successfully
+[ 2026-09-06 10:57:47,586 ] 150 root - INFO - Preprocessor object created successfully
+[ 2026-09-06 10:57:47,586 ] 351 root - INFO - Applying preprocessing object to training data
+[ 2026-09-06 10:57:47,596 ] 360 root - INFO - Training data transformation completed
+[ 2026-09-06 10:57:47,596 ] 364 root - INFO - Applying preprocessing object to testing data
+[ 2026-09-06 10:57:47,600 ] 373 root - INFO - Testing data transformation completed
+[ 2026-09-06 10:57:47,601 ] 402 root - INFO - Preprocessor object saved successfully

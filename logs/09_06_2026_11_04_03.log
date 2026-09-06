@@ -1,0 +1,32 @@
+[ 2026-09-06 11:04:03,318 ] 40 root - INFO - Entered the data ingestion method or component
+[ 2026-09-06 11:04:03,322 ] 50 root - INFO - Read the dataset as dataframe
+[ 2026-09-06 11:04:03,322 ] 62 root - INFO - Train test split initiated
+[ 2026-09-06 11:04:03,323 ] 73 root - INFO - Train test split completed
+[ 2026-09-06 11:04:03,328 ] 89 root - INFO - Ingestion of data is completed
+[ 2026-09-06 11:04:03,330 ] 178 root - INFO - Starting data transformation
+[ 2026-09-06 11:04:03,334 ] 186 root - INFO - Training and testing data loaded successfully
+[ 2026-09-06 11:04:03,339 ] 282 root - INFO - Feature engineering completed
+[ 2026-09-06 11:04:03,343 ] 317 root - INFO - Binary columns converted to numerical values
+[ 2026-09-06 11:04:03,344 ] 341 root - INFO - Input features and target variable separated
+[ 2026-09-06 11:04:03,344 ] 88 root - INFO - Numerical features identified: ['age', 'Medu', 'Fedu', 'traveltime', 'studytime', 'failures', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 'higher', 'internet', 'romantic', 'famrel', 'freetime', 'goout', 'Dalc', 'Walc', 'health', 'absences', 'G1', 'G2', 'grade_improvement', 'alcohol_score', 'avg_alcohol', 'social_activity_score', 'parent_education_avg', 'parent_education_gap', 'academic_risk']
+[ 2026-09-06 11:04:03,344 ] 93 root - INFO - Categorical features identified: ['school', 'sex', 'address', 'famsize', 'Pstatus', 'Mjob', 'Fjob', 'reason', 'guardian', 'absence_level']
+[ 2026-09-06 11:04:03,344 ] 126 root - INFO - Numerical pipeline created successfully
+[ 2026-09-06 11:04:03,344 ] 130 root - INFO - Categorical pipeline created successfully
+[ 2026-09-06 11:04:03,344 ] 150 root - INFO - Preprocessor object created successfully
+[ 2026-09-06 11:04:03,344 ] 351 root - INFO - Applying preprocessing object to training data
+[ 2026-09-06 11:04:03,354 ] 360 root - INFO - Training data transformation completed
+[ 2026-09-06 11:04:03,354 ] 364 root - INFO - Applying preprocessing object to testing data
+[ 2026-09-06 11:04:03,358 ] 373 root - INFO - Testing data transformation completed
+[ 2026-09-06 11:04:03,359 ] 402 root - INFO - Preprocessor object saved successfully
+[ 2026-09-06 11:04:03,359 ] 46 root - INFO - Starting model training
+[ 2026-09-06 11:04:03,359 ] 59 root - INFO - Train and test data separated
+[ 2026-09-06 11:04:03,359 ] 100 root - INFO - Training Linear Regression
+[ 2026-09-06 11:04:03,369 ] 174 root - INFO - Linear Regression - MAE: 0.0000, RMSE: 0.0000, R2: 1.0000
+[ 2026-09-06 11:04:03,369 ] 100 root - INFO - Training Decision Tree
+[ 2026-09-06 11:04:03,372 ] 174 root - INFO - Decision Tree - MAE: 0.0000, RMSE: 0.0000, R2: 1.0000
+[ 2026-09-06 11:04:03,372 ] 100 root - INFO - Training Random Forest
+[ 2026-09-06 11:04:03,577 ] 174 root - INFO - Random Forest - MAE: 0.0000, RMSE: 0.0000, R2: 1.0000
+[ 2026-09-06 11:04:03,577 ] 100 root - INFO - Training Gradient Boosting
+[ 2026-09-06 11:04:03,651 ] 174 root - INFO - Gradient Boosting - MAE: 0.0000, RMSE: 0.0000, R2: 1.0000
+[ 2026-09-06 11:04:03,651 ] 222 root - INFO - Best model selected: Linear Regression
+[ 2026-09-06 11:04:03,652 ] 240 root - INFO - Best model saved successfully

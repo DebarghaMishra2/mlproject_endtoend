@@ -1,0 +1,15 @@
+[ 2026-09-06 10:56:31,341 ] 178 root - INFO - Starting data transformation
+[ 2026-09-06 10:56:31,346 ] 186 root - INFO - Training and testing data loaded successfully
+[ 2026-09-06 10:56:31,350 ] 282 root - INFO - Feature engineering completed
+[ 2026-09-06 10:56:31,354 ] 317 root - INFO - Binary columns converted to numerical values
+[ 2026-09-06 10:56:31,355 ] 341 root - INFO - Input features and target variable separated
+[ 2026-09-06 10:56:31,355 ] 88 root - INFO - Numerical features identified: ['age', 'Medu', 'Fedu', 'traveltime', 'studytime', 'failures', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 'higher', 'internet', 'romantic', 'famrel', 'freetime', 'goout', 'Dalc', 'Walc', 'health', 'absences', 'G1', 'G2', 'grade_improvement', 'alcohol_score', 'avg_alcohol', 'social_activity_score', 'parent_education_avg', 'parent_education_gap', 'academic_risk']
+[ 2026-09-06 10:56:31,355 ] 93 root - INFO - Categorical features identified: ['school', 'sex', 'address', 'famsize', 'Pstatus', 'Mjob', 'Fjob', 'reason', 'guardian', 'absence_level']
+[ 2026-09-06 10:56:31,355 ] 126 root - INFO - Numerical pipeline created successfully
+[ 2026-09-06 10:56:31,355 ] 130 root - INFO - Categorical pipeline created successfully
+[ 2026-09-06 10:56:31,355 ] 150 root - INFO - Preprocessor object created successfully
+[ 2026-09-06 10:56:31,355 ] 351 root - INFO - Applying preprocessing object to training data
+[ 2026-09-06 10:56:31,365 ] 360 root - INFO - Training data transformation completed
+[ 2026-09-06 10:56:31,365 ] 364 root - INFO - Applying preprocessing object to testing data
+[ 2026-09-06 10:56:31,370 ] 373 root - INFO - Testing data transformation completed
+[ 2026-09-06 10:56:31,371 ] 402 root - INFO - Preprocessor object saved successfully
